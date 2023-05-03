@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <ul>
+        <li><a href="image_search.html">Image Search</a></li>
+        <li><a href="index.html">Regular Search</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <img
+        class="logo-picture"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="google logo"
+      />
+      <form action="https://www.google.com/search" method="GET">
+        <div class="btn-sub">
+          <input
+            id="advance-field"
+            class="input-field"
+            type="text"
+            name="as_q"
+            placeholder="All these words"
+          />
+          <input
+            id="advance-field"
+            class="input-field"
+            type="text"
+            name="as_epq"
+            placeholder="Exact phrase"
+          />
+          <input
+            id="advance-field"
+            class="input-field"
+            type="text"
+            name="as_oq"
+            placeholder="Any of these words"
+          />
+          <input
+            id="advance-field"
+            class="input-field"
+            type="text"
+            name="as_eq"
+            placeholder="None of these words"
+          />
+          <input
+            class="submi"
+            type="submit"
+            id="advance"
+            value="Advance Search"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
